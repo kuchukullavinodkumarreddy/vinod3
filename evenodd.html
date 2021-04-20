@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>even odd detector</title>
+    <style>
+        body
+        {
+            background-color:rgb(69, 88, 30);
+        }
+         h1{
+            text-align: center;
+            background-color:orangered;
+            border: 25px;
+            border-radius: 10px;
+        }
+        
+        div{
+            text-align: center;
+            color:rgb(15, 14, 14);
+        }
+        
+        
+
+        
+    </style>
+       
+  </head>
+  <body>
+    <h1> Even Numbers and Odd Numbers within a range </h1>
+    <div>
+    <label>initial Number:</label>
+     <input type="number" min="0" id="txt1" value="" />
+     </div>
+    <br>
+    <div>
+   <label> Final Number:</label> 
+   <input type="number"  min="1" id="txt2" value="" />
+   </div>
+    <br>
+    <div>
+    <input type="button" onclick="printEvenNums()" value="Print Even Numbers" />
+    <div id="result1"></div>
+    <br>
+    </div>
+    <div>
+    <input type="button" onclick="printOddNums()" value="Print Odd Numbers" />
+    <div id="result2"></div>
+    <br>
+    </div>
+    <script src="./function.js"></script>
+  </body>
+</html>
